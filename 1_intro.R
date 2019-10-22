@@ -1,5 +1,6 @@
 str(EBV)
-colnames(EBV)[15]<- "PP"
+colnames(EBV)[1] <- "ISO"
+colnames(EBV)[2] <- "ISOP"
 colnames(EBV)[3]<-"ISOM"
 colnames(EBV)[4]<-"FNACNUMERO"
 colnames(EBV)[5]<-"SEXOLETRA"

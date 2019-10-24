@@ -42,4 +42,6 @@ int_gen1930<-decada1930 %>%
             FNAC_max = max (FNACNUMERO),
             hijos = length(FNACNUMERO))
 
-
+#Para pasar el conjunto de datos de R a txt:
+write.table(EBV, "C:/Users/Ana/Desktop/tesis FG/R/EBV.txt", sep = "\t", col.names = TRUE, row.names = FALSE, quote = FALSE, 
+            na = "NA")
